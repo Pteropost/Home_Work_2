@@ -1,0 +1,13 @@
+.wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1440px;
+}
+body{
+    width: 1440px;
+    margin: 0 auto;
+}
+h1, h2{
+    margin: 0;
+}
