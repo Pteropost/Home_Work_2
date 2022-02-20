@@ -1,7 +1,25 @@
-.contacts{
+.contacts__cols{
     background: #E5E5E5;
-}
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
 
+}
+.contacts__col{
+
+}
+.footer_logo{
+
+}
+.country{
+
+}
+.contacts__col p{
+
+}
+.contact{
+
+}
 .copyright{
     background: #EE4248;
 }

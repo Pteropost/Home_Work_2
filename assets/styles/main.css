@@ -1,12 +1,52 @@
 .slider{
-    background: #E5E5E5;
+    display: grid;
+    grid-template-columns: 200px auto;
+    margin-top: 51px;
+    margin-left: 157px;
+    margin-right: 158px;
+    /*column-gap:  1px; растояние между блоками*/
+
+}
+
+.slider__info{
+    display: grid;
+    place-items: center;
+}
+.slider__pic{
+    display: grid;
+    place-items: center;
+}
+.h1_black_slider{
+    font-family: Roboto sans-serif;
+    font-style: normal;
+    /*font-weight: bold;*/
+    font-size: 48px;
+    width: 700px;
+    line-height: 133.69%;
+    color: #1F2E35;
+}
+.h1_red_slider{
+    font-family: Poppins sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 133.69%;
+    color: #EE4248;
+}
+.slider__info p{
+    font-family: Roboto serif;
+    width: 400px;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 29px;
+    color: #30444E;
 }
 .slider-btn{
     display: flex;
     flex-direction: row;
     height: 48px;
 }
-
 .slider-btn a{
     margin-right:10px;
     border:0;
@@ -56,6 +96,38 @@
 
 .greeting{
     background: #F6F6F6;
+}
+.welc__pic{
+
+}
+.welc__info{
+
+}
+.welc__info__black{
+
+}
+.welc__info__black{
+
+}
+.welc__info p{
+    font-family: Roboto, serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.2px;
+    text-decoration: none;
+    color:#30444E;
+}
+.greeting__p_red{
+    font-family: Roboto, serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0.2px;
+    text-decoration: none;
+    color:#EE4248;
 }
 
 .services{
